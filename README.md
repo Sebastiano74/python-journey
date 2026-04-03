@@ -1,54 +1,83 @@
-# 🐍 Python Journey - Percorso di apprendimento
+# Python Journey – Progetti Python
 
-## 📌 Obiettivo
+Questo repository raccoglie una selezione di progetti Python sviluppati durante il mio percorso di apprendimento.
 
-Sto studiando Python partendo da zero con l'obiettivo di:
+Lo scopo del progetto è mostrare esempi pratici di utilizzo di Python per:
 
-* ottenere la certificazione PCAP
-* trovare lavoro come Junior Python Developer
+- gestione di dati
+- automazione di operazioni semplici
+- lettura e analisi di file
+- interazione con l’utente da riga di comando
 
----
-
-## 📚 Contenuti
-
-### Giorno 1
-
-* Introduzione a Python
-* print()
-* Variabili
-* Input utente
-* Operazioni matematiche
+Il repository contiene solo progetti completi e funzionanti, non esercizi didattici.
 
 ---
 
-## 💻 Esercizi svolti
+## Progetti presenti
 
-* esercizio_1_1.py → verifica ambiente
-* esercizio_1_2.py → primo script Python
-* esercizio_1_3.py → calcoli e REPL
-* esercizio_1_4.py → Hello World
+### Analisi spese da file CSV
 
----
+Script Python che legge un file CSV contenente una lista di spese e:
 
-## 🧠 Competenze acquisite
+- converte i valori numerici
+- gestisce eventuali dati non validi
+- salva i valori corretti in una lista per successive elaborazioni
 
-* utilizzo di print()
-* gestione variabili
-* uso di input()
-* conversione tipi (int)
-* operazioni matematiche
+File principale:
 
----
+- `analisi_spese_csv.py`
 
-## 🚀 Prossimi passi
+Cartelle utilizzate:
 
-* strutture dati
-* cicli
-* funzioni
-* progetti reali
+- `progetti/input/` (file CSV di input)
+- `progetti/output/` (eventuali file di output)
 
 ---
 
-## 👤 Autore
+### Contatore e somma spese
 
-Sebastiano Giaquinta
+Script Python che permette all’utente di:
+
+- inserire più spese manualmente
+- validare l’input dell’utente
+- calcolare il totale delle spese
+- contare quante spese sono state inserite
+
+File principale:
+
+- `contatore_spese.py`
+
+---
+
+## Concetti Python utilizzati
+
+Nei progetti sono utilizzati i seguenti concetti:
+
+- input dell’utente
+- conversione dei tipi di dato
+- strutture di controllo (`if / elif / else`)
+- cicli (`while`)
+- gestione degli errori (`try / except`)
+- lettura di file
+- organizzazione del codice
+
+---
+
+## Tecnologie utilizzate
+
+- Python 3
+- Visual Studio Code
+- Git e GitHub
+
+---
+
+## Nota
+
+Questo repository è pensato come portfolio dimostrativo.
+Gli esercizi di studio non sono inclusi.
+
+---
+
+Sebastiano Giaquinta  
+Junior Python Developer in formazione
+``
